@@ -1,5 +1,4 @@
 ﻿using Algorithm.Composition;
-using Xunit;
 
 namespace Algorithm.Tests.Composition
 {

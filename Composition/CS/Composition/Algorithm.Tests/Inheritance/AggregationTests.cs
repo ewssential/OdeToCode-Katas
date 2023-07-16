@@ -1,5 +1,4 @@
 ﻿using Algorithm.Inheritance;
-using Xunit;
 
 namespace Algorithm.Tests.Inheritance
 {
