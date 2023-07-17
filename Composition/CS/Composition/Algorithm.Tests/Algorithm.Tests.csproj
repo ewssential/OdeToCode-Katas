@@ -7,7 +7,7 @@
 
         <IsPackable>false</IsPackable>
 
-        <RootNamespace>Algorithm_Net7.Tests</RootNamespace>
+        <RootNamespace>Algorithm.Tests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
