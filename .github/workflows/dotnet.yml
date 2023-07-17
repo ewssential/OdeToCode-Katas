@@ -21,8 +21,11 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
+      working-directory: ./Composition/CS/Composition
       run: dotnet restore
     - name: Build
+      working-directory: ./Composition/CS/Composition
       run: dotnet build --no-restore
     - name: Test
+      working-directory: ./Composition/CS/Composition
       run: dotnet test --no-build --verbosity normal
